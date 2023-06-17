@@ -1,0 +1,123 @@
+*{
+   font-family: 'poppins' ,sans-serif;
+}
+body{
+   background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-tutor-housekeeping-background-template-picture-image_1075210.jpg");
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   
+}
+.box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 90vh;
+}
+.container{
+   width: 350px;
+   display: flex;
+   flex-direction: column;
+   padding: 0 15px 0 15px;
+   
+}
+span{
+   color: #1b7903;
+   font-size: small;
+   display: flex;
+   justify-content: center;
+   padding: 10px 0 10px 0;
+}
+header{
+   color: #1b7903;
+   font-size: 30px;
+   display: flex;
+   justify-content: center;
+   padding: 10px 0 10px 0;
+}
+
+.input-field .input{
+   height: 45px;
+   width: 87%;
+   border: none;
+   border-radius: 30px;
+   color: #1b7903;
+   font-size: 15px;
+   padding: 0 0 0 45px;
+   background: rgba(255,255,255,0.1);
+   outline: none;
+}
+i{
+   position: relative;
+   top: -33px;
+   left: 17px;
+   color: #1b7903;
+}
+::-webkit-input-placeholder{
+   color: #1b7903;
+}
+.submit{
+   border: none;
+   border-radius: 30px;
+   font-size: 15px;
+   height: 45px;
+   outline: none;
+   width: 100%;
+   color: black;
+   background: rgba(255,255,255,0.7);
+   cursor: pointer;
+   transition: .3s ;
+   text-align: center;
+}
+.submit:hover{
+   box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.two-col{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   color: #1b7903;
+   font-size: small;
+   margin-top: 10px;
+}
+.one{
+   display: flex;
+}
+label a{
+   text-decoration: none;
+   color: #1b7903;
+}
+.input-field.input:focus {
+   outline: 0;
+}
+
+.input-field.success input {
+   border-color: #09c372;
+}
+
+.input-field.error input {
+   border-color: #ff3860;
+}
+
+.input-field.error {
+   color: #ff3860;
+   font-size: 9px;
+   height: 13px;
+}
+.login_form #email_error,
+.login_form #pass_error{
+	margin-top: 5px;
+	width: 345px;
+	font-size: 18px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
+}
+
+
+

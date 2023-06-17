@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title> Login</title>
+
+</head>
+<body>
+    
+   <div class="box">
+    <div class="container">
+
+        <div class="top">
+            <span>Have an account?</span>
+            <header>Login</header>
+        </div>
+        <form id="form" action="/">
+        <div class="input-field">
+            <input type="email" class="input" placeholder="Email" id="email"  required data-validation-required-message="Please enter your email address" autocomplete="off">
+            <i class='bx bx-user' ></i>
+        </div>
+
+        <div class="input-field">
+            <input type="Password" class="input" placeholder="Password" id="password" required data-validation-required-message="Please enter your password" autocomplete="off">
+            <i class='bx bx-lock-alt'></i>
+        </div>
+        </form>
+        <div class="input-field">
+            <a href="services.html">
+            <input type="submit" class="submit" value="Login" id=""></a>
+        </div>
+
+        <div class="two-col">
+            <div class="one">
+            </div>
+            <div class="two">
+                <label><a href="#">Forgot password?</a></label>
+            </div>
+			<div class="input-field">
+				<a href="intro.html">
+					<button class="GFG">
+						BACK
+					</button>
+			</div>
+			
+        </div>
+    </div>
+</div>  
+<div id="error-msg"></div>
+<script defer src="valid2.js"></script>
+</body>
+</html>
