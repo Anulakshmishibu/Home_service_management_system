@@ -314,7 +314,8 @@ header .container nav ul li a:hover {
 /* End Home Section  */
 /* Start Services Section  */
 .services {
-    border-bottom: .2rem solid #f0f0f0;
+    background-image:linear-gradient(rgba(240, 244, 241, 0.5),rgba(137, 225, 137, 0.5)),url(G:\anu\images.png);
+    border-bottom: .2rem solid #c79494;
     position: relative;
 }
 
@@ -340,10 +341,9 @@ header .container nav ul li a:hover {
 }
 
 .services .container .serv-box .serv-heading h4 {
-    font-size: 2rem;
+    font-size: 3.3rem;
     font-weight: 300;
-    color: var(--textColor);
-    text-transform: uppercase;
+    color: var(--blueColor);
 }
 
 .services .container .serv-box .serv-img img {
@@ -372,9 +372,9 @@ header .container nav ul li a:hover {
 
 .services .container .serv-box .list ul li::before {
     content: "• ";
-    position: absolute;
+    position: relative;
     top: 0;
-    left: -1rem;
+    left: -2rem;
 }
 
 .services .container .serv-box a {
@@ -390,7 +390,7 @@ header .container nav ul li a:hover {
 @media(min-width: 768px) {
     .services .container .serv-box .list {
         display: flex;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .services .container .serv-box .serv-img {
@@ -423,13 +423,14 @@ header .container nav ul li a:hover {
     }
 }
 
-@media(min-width: 992px) {
+@media(min-width: 1400px) {
     .services .container .serv-box .list {
+        
         justify-content: space-between;
     }
 }
 
-@media(min-width: 1200px) {
+@media(min-width: 992px) {
     .services .container .serv-box .list {
         display: flex;
         justify-content: space-between;
@@ -458,7 +459,9 @@ header .container nav ul li a:hover {
     }
 
     .services .container .serv-box:nth-child(2) p {
+        text-align: center;
         margin-left: auto;
+        margin-right: auto;
     }
 
     .services .container .serv-box .list ul li {
@@ -468,7 +471,7 @@ header .container nav ul li a:hover {
 
 @media(min-width: 1400px) {
     .services .container .serv-box:nth-child(2) .list {
-        padding-left: 11rem;
+        padding-left: 4rem;
     }
 }
 

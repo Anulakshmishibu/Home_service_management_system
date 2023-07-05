@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Booking Form</title>
+	<title>Order Now</title>
 	<link rel="stylesheet" type="text/css" href="booking.css">
 </head>
 <body>
 	<div class="container">
-		<h1>Booking Form</h1>
-		<form action="bconn.php" method="post">
-       
-         
+		<h1>order Now</h1>
+		<form action="oconn.php" method="post">
 			<div class="row form-row">
                 <input type="text" placeholder="name" name="name" required>
               </div>
@@ -21,25 +19,22 @@
               </div>
       
         <div class="row form-row">
-  			<select id="services" name="services" required>
-				<option value="">services</option>
-				<option value="plumbing">Plumbing</option>
-				<option value="electrical">Electrical</option>
-				<option value="cleaning">Cleaning</option>
-				<option value="carpentry">Carpentry</option>
+  			<select id="choose your price planning" name="planning" required>
+				<option value=""></option>
+				<option value="start plan">start plan</option>
+				<option value="standerd plan">standerd plan</option>
+				<option value="premium plan">premium plan</option>
 			</select></div>
-
-			<label for="date">Date:</label>
-			<input type="date" id="date" name="date" required min="2023-07-01">
-
-			<h2>Address Details</h2>
+        	
+            
+                 <h2>Address Details</h2>
 
                              <div class="row form-row">
                                 <div class="col-sm-6">
                                    <input type="text" placeholder="area" name="area" required>
                                 </div>
                                 <div class="col-sm-6">
-                                   <input type="text" placeholder="city" name="city">
+                                   <input type="text" placeholder="city" name="city" required>
                                 </div>
                             </div>
                              <div class="row form-row">
@@ -52,7 +47,7 @@
                                         <option value="tamil nadu">tamilnadu</option>
                                     </select></div>
                                 <div class="col-sm-6">
-                                   <input type="text" placeholder="pin" name="pin" required>
+                                   <input type="text" placeholder="pin" name="bin" required>
                                 </div>
 
 		<input type="submit" value="Book Now" onclick="myFunction()">
